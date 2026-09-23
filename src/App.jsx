@@ -20,6 +20,7 @@ import InfiniteScroll from './pages/infinite_scroll/InfiniteScroll'
 import CounterUsingUseReducer from './pages/counter_using_useReducer/CounterUsingUseReducer'
 import AdvanceCounterUsingUseReducer from './pages/advance_counter_using_useReducer/AdvanceCounterUsingUseReducer'
 import MainReduxCounter from './pages/counter_using_redux/MainReduxCounter'
+import TicTacToe from './tic_tac_toe/TicTacToe';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -44,6 +45,7 @@ function App() {
       {/* <CounterUsingUseReducer /> */}
       {/* <AdvanceCounterUsingUseReducer /> */}
       {/* <MainReduxCounter /> */}
+      {/* <TicTacToe /> */}
       {/* <div className="min-h-screen bg-blue-900 flex items-center justify-center">
         <h1 className="text-4xl font-bold text-red-900">
           Tailwind v4 Working
